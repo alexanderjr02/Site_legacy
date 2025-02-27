@@ -27,7 +27,7 @@ body {
 
 /* Estilo para o fundo */
 .fundo {
-    background-image: url(./assets/img/Laptop\ Mockup\ -\ 01\ 1.png);
+    background-image: url(./img/murcup.png);
     background-position: right top; /* Posiciona a imagem à direita e centralizada verticalmente */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
     background-size: 640px 600px; /* A imagem cobre toda a área da tela */
@@ -48,7 +48,7 @@ body {
 
 /* Efeito de rolagem para a home */
 .home {
-    background-image: url(./assets/img/10919118\ 1.png);
+    background-image: url(./img/cara1.png);
     background-position: right center;
     background-repeat: no-repeat;
     background-size: 350px 400px;
@@ -146,7 +146,7 @@ body {
     width: 100%;
     padding: 20px;
     z-index: 2; /* Fica acima de outras seções */
-    background-image: url(./assets/img/fundo.png);
+    background-image: url(./img/fundo.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size:100%;
@@ -343,9 +343,9 @@ body {
     align-items: stretch;
     padding-right: 20px;
     background-image:
-        url(./img/envato_uy4422k\ 1.png),/* Primeira imagem */
-        url(./assets/img/109191182\ 1.png), /* Segunda imagem */
-        url(./assets/img/1091911823\ 1.png),linear-gradient(to right, rgba(255, 0, 0, 0.301), rgba(255, 0, 0, 0.233)); /* Terceira imagem */
+        url(./img/fundo2.png),/* Primeira imagem */
+        url(./img/cara2.png), /* Segunda imagem */
+        url(./img/dinheiro.png),linear-gradient(to right, rgba(255, 0, 0, 0.301), rgba(255, 0, 0, 0.233)); /* Terceira imagem */
     background-repeat: no-repeat;
     background-position: left 220px, left top, left 350px;
     background-size: 100% 430px, 400px 55%, 430px 400px; /* Tamanhos individuais para cada imagem */
