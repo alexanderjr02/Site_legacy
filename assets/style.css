@@ -1,0 +1,497 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    max-height: 100vh;
+    width: 100%;
+    overflow-x: hidden; /* Evita que a página role horizontalmente */
+    position: relative;
+}
+/* Inicializa as seções com a animação */
+.fade-in {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1.8s ease-out, transform 1.8s ease-out; /* Aumenta a duração e aplica um timing mais suave */
+}
+
+/* Quando a seção entrar em visibilidade (ou for ativada), ela vai ficar visível e mover para a posição original */
+.fade-in.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+/* Estilo para o fundo */
+.fundo {
+    background-image: url(/assets/img/Laptop\ Mockup\ -\ 01\ 1.png);
+    background-position: right top; /* Posiciona a imagem à direita e centralizada verticalmente */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-size: 640px 600px; /* A imagem cobre toda a área da tela */
+    height: 100vh; /* Garantir que a imagem ocupe a altura total da tela */
+    margin: 0; /* Remover margens padrões */
+    transition: transform 2s ease-out; /* Suaviza o movimento da imagem de fundo */
+}
+
+.logo {
+    padding: 30px;
+}
+
+.logo img {
+    height: 30px;
+    width: 450px;
+    margin-top: 40px;
+}
+
+/* Efeito de rolagem para a home */
+.home {
+    background-image: url(/assets/img/10919118\ 1.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 350px 400px;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    overflow: hidden; /* Impede que o conteúdo saia da área da tela */
+    opacity: 1; /* Faz com que a home seja visível ao carregar */
+    transform: translateX(0); /* A posição inicial já será normal */
+}
+
+/* A animação de rolagem */
+.conteudo-home {
+    display: grid;
+    max-width: 100%;
+    padding: 50px;
+    z-index: 1;
+    position: relative;
+    gap: 20px;
+    opacity: 0; /* Inicialmente invisível */
+    transform: translateX(-100%); /* Inicia o conteúdo fora da tela (à esquerda) */
+    transition: transform 1.3s ease-out, opacity 2s ease-out;
+}
+
+.conteudo-home h1, .conteudo-home p, .conteudo-home h2 {
+    color: #FFFFFF;
+}
+
+.conteudo-home h1 {
+    margin-top: 10px;
+    font-size: 30px;
+    width: 87%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.conteudo-home p {
+    margin-top: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 400;
+}
+
+.conteudo-home h2 {
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    width: 41%;
+    border-bottom: 2px solid #900000;
+    font-weight: 700;
+}
+
+.buton-home {
+    background-color: #900000;
+    border: none;
+    height: 50px;
+    width: 300px;
+    border-radius: 9px;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.buton-home:hover{
+    background-color: #2e0000;
+}
+
+.buton-home a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* Quando o conteúdo entrar na tela (usando JavaScript para detectar o scroll) */
+.show-on-scroll {
+    opacity: 1; /* Torna visível */
+    transform: translateX(0); /* Move para dentro da tela */
+}
+
+ /*Estilização dos Cards*/
+.fundamentos h3,p,h4{
+    color: #FFFFFF;
+    transition: transform 1.3s ease-out, opacity 2s ease-out;
+    font-family: 'Inter', sans-serif;
+}
+
+.fundamentos {
+    position: fixed; /* Fixa a seção na tela */
+    top: 600px; /* Coloca logo abaixo da home */
+    left: 0;
+    height: 100vh; /* Ocupa toda a altura da tela */
+    width: 100%;
+    padding: 20px;
+    z-index: 2; /* Fica acima de outras seções */
+    background-image: url(/assets/img/fundo.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.card1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 48%; /* Ajuste o tamanho da coluna conforme necessário */
+    margin-bottom: 20px;
+    gap: 30px;
+    margin-top: 40px;
+}
+.card {
+    margin-bottom: 15px; /* Espaçamento entre os cards */  
+}
+
+.fundamentos h3{
+    margin-top: 30px;
+    margin-left: 150px;
+    font-weight: 800;
+    font-size: 27px;
+}
+
+.titulo-fundamentos{
+    display: flex;
+    gap: 7px;
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+}
+.conteudo-card{
+    margin-top: 10px;
+    font-size: 13px;
+    align-items: center;
+    font-weight: 500;
+    width: 100%;
+}
+.num-card{
+    border: solid 4px #FF0000;
+    padding: 1px;
+    height: 35px;
+    width: 40px;
+    align-items: center;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.buton-card{
+    background-color: #900000;
+    border: none;
+    height: 50px;
+    width: 300px;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+    align-items: center;
+    margin-left: 530px;
+    margin-top: 20px;
+}
+
+.buton-card a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.buton-card:hover{
+    background-color: #2e0000;
+}
+
+/* Fim Estilização dos Cards*/
+
+.clientes {
+    padding: 20px;
+    color: #fff;
+    margin-top: 350px;
+    text-align: center;
+    background-image: url(/assets/img/fundo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  80% 100%;
+}
+
+.titulo-cliente{
+    color: #FF0000;
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+.subtitulo-cliente{
+    font-size: 21px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.info-cliente{
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.logos-clientes {
+    display: flex;
+    justify-content: flex-start; /* Alinha as imagens à esquerda */
+    align-items: center;
+    overflow-x: scroll; /* Permite rolar horizontalmente */
+    width: 100%; /* Ajusta a largura para que as imagens caibam */
+    margin: auto;
+    position: relative;
+    cursor: grab;
+    scroll-behavior: smooth; /* Suaviza a rolagem ao usar o mouse scroll */
+    background: transparent; /* Torna o fundo transparente */
+    scrollbar-width: thin; /* Torna a barra de rolagem mais fina */
+    scrollbar-color: transparent transparent; /* Torna a barra de rolagem transparente */
+}
+
+.logos-clientes img {
+    transition: transform 0.2s ease, opacity 0.s ease; /* Suaviza a transição das imagens */
+    width: 600px; /* Ajusta o tamanho das imagens */
+    height: 350px;
+    margin-right: 50px; /* Espaçamento entre as imagens */
+    opacity: 0.1; /* Imagens laterais ficam um pouco transparentes */
+    margin-top: 80px;
+}
+
+.logos-clientes img.central {
+    transform: scale(1.1); /* Aumenta a imagem central */
+    opacity: 1; /* Dá 100% de opacidade para a imagem central */
+}
+
+.logos-clientes img.fora {
+    opacity: 0.3; /* Diminui a opacidade das imagens laterais */
+    padding: 20px 30px;
+}
+
+.logos-clientes.grabbing {
+    cursor: grabbing;
+}
+
+.motivos {
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-motivo {
+    margin-top: 60px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.motivos1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around; /* Alinha os itens de forma igual ao longo da linha */
+}
+
+.item {
+    text-align: center;
+}
+
+.motivos1 img {
+    height: 20px; /* Ajuste o tamanho da imagem conforme necessário */
+    display: block;
+}
+
+.texto {
+    font-size: 9px;
+    margin-top: 5px; /* Ajuste o espaçamento entre a imagem e o texto */
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+/* fim da estilização dos cards */
+
+
+/* estilização dos serviços */
+.serviços {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-right: 20px;
+    background-image:
+        url(/assets/img/envato_uy4422k\ 1.png),/* Primeira imagem */
+        url(/assets/img/109191182\ 1.png), /* Segunda imagem */
+        url(/assets/img/1091911823\ 1.png),linear-gradient(to right, rgba(255, 0, 0, 0.301), rgba(255, 0, 0, 0.233)); /* Terceira imagem */
+    background-repeat: no-repeat;
+    background-position: left 220px, left top, left 350px;
+    background-size: 100% 430px, 400px 55%, 430px 400px; /* Tamanhos individuais para cada imagem */
+    width: 100%;
+}
+
+.serviços-info{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.cabeçalho-serviços {
+    align-items: center;
+    text-align: start;
+    margin-left: 430px;
+    
+}
+
+.cabeçalho-serviços p {
+    margin-left: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.titulo-serviços {
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.conteudo-serviços {
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 440px;
+}
+
+.nome-serviços h3,
+li {
+    color: #FFFFFF;
+}
+
+.nome-serviços1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.nome-serviços1 img {
+    height: 40px;
+}
+
+.nome-serviços1 h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.nome-serviços{
+    margin-left: 20px;
+}
+
+.nome-serviços ul{
+    margin-left: 135px;
+}
+
+.serviços .buton-card {
+    width: 400px;
+    margin-top: 100px;
+    margin-left: auto; /* Remove qualquer margem fixa */
+    margin-right: auto; /* Centraliza horizontalmente */
+    display: block; /* Garante que ocupe toda a largura disponível */
+    text-align: center; /* Para centralizar se for um botão inline */
+}
+
+
+.buton{
+    align-items: center;
+    margin-top: 60px;
+}
+
+/* fim da estilização dos serviços */
+
+/* estilização do footer*/
+
+footer{
+    height: 180px;
+    width: 100%;
+    background-color: #FF0000;
+    margin-top: 70px;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 50px 25px;
+}
+
+.parte1 img{
+    height: 30px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.parte1 p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.parte2{
+    margin-right: 40px;
+    display: flex;
+    gap: 100px;
+}
+.parte2 img{
+    height: 40px;
+    cursor: pointer;
+}
+.nome-legacy{
+    text-align: center;
+    height: 40px;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.nome-legacy p{
+    color: #000000;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.nome-legacy p span{
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}

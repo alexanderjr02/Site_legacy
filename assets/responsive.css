@@ -1,0 +1,1439 @@
+
+@media (min-width: 600px) and (max-width: 1024px)  {
+    .fundo{
+        background-size: 100% 50%;
+        background-position: right top;
+     }
+
+     .logo {
+        margin-left: 20px;
+    }
+    
+    .logo img {
+        height: 30px;
+        width: 350px; 
+        margin-top: 45px;
+    }
+
+    .home {
+        background-position: right 250px;
+        background-repeat: no-repeat;
+        background-size: 50% 35%;
+    }
+
+    .conteudo-home {
+        display: grid;
+        max-width: 100%;
+        padding: 0px 50px;
+    }
+
+    .conteudo-home h1 {
+        margin-top: 5px;
+        font-size: 30px;
+    }
+
+    .conteudo-home p {
+        margin-top: 5px;
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .conteudo-home h2 {
+        margin-top: 10px;
+        font-family: 'Inter', sans-serif;
+        font-size: 27px;
+        width: 65%;
+        border-bottom: 2px solid #900000;
+        font-weight: 700;
+    }
+    .buton-home {
+        background-color: #900000;
+        border: none;
+        height: 50px;
+        width: 300px;
+        border-radius: 9px;
+        margin-left: 10px;
+        margin-top: 50px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
+   .fundamentos {
+        position: fixed; /* Fixa a seção na tela */
+        top: 600px; /* Coloca logo abaixo da home */
+        left: 0;
+        height: 100vh; /* Ocupa toda a altura da tela */
+        width: 100%;
+        z-index: 2; /* Fica acima de outras seções */
+        background-image: url(/assets/img/Vector.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .fundamentos h3{
+        margin-left: 25px;
+        font-weight: 800;
+        font-size: 20px;
+        width: 100%;
+    }
+    .card {
+        margin-bottom: 30px; /* Espaçamento entre os cards */
+        align-items: center;
+    }
+    
+   .card1 {
+       display: grid;
+       align-items: center;
+       justify-content: start;
+       margin-top: 40px;
+       margin-left: 40px;
+   }
+    .card-container{
+        display: grid;
+        width: 100%; /* Ajuste o tamanho da coluna conforme necessário */
+        align-items: center;
+        margin-top: 0px;
+        gap: 0px;
+    }
+
+    .titulo-fundamentos{
+        display: flex;
+        gap: 7px;
+        font-weight: 700;
+        font-size: 20px;
+        align-items: center;
+    }
+   .conteudo-card{
+        margin-top: 10px;
+        font-size: 14px;
+        align-items: center;
+        font-weight: 500;
+    }
+    .num-card{
+        border: solid 4px #FF0000;
+        padding: 1px;
+        height: 35px;
+        width: 35px;
+        align-items: center;
+        text-align: center;
+        border-radius: 7px;
+    }
+    .buton-card{
+        height: 50px;
+        width: 300px;
+        margin-left: 250px;
+    }
+
+    .clientes {
+        padding: 20px;
+        margin-top: 300px;
+    }
+
+    .titulo-cliente{
+        font-size: 30px;
+    }
+    
+    .subtitulo-cliente{
+        font-size: 18px;
+    }
+
+    .info-cliente{
+        font-size: 12px;
+    }
+
+    .logos-clientes {
+        width: 90%; /* Ajusta a largura para que as imagens caibam */
+    }
+    
+    .logos-clientes img {
+        width: 100%; /* Ajusta o tamanho das imagens */
+        height: 200px;
+        margin-right: 10px; /* Espaçamento entre as imagens */
+        margin-top: 70px;
+    }
+
+    
+.motivos {
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-motivo {
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+.motivos1 {
+    margin-top: 20px;
+    display: grid;
+}
+
+.item {
+    display: flex;
+    text-align: justify;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.motivos1 img {
+    height: 15px; /* Ajuste o tamanho da imagem conforme necessário */
+    display: flex;
+    
+}
+
+.texto {
+    font-size: 13px;
+    margin-top: 5px; /* Ajuste o espaçamento entre a imagem e o texto */
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.serviços {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-right: 20px;
+    background-image:
+        url(/assets/img/envato_uy4422k\ 1.png),/* Primeira imagem */
+        url(/assets/img/109191182\ 1.png), /* Segunda imagem */
+        url(/assets/img/1091911823\ 1.png),linear-gradient(to right, rgba(255, 0, 0, 0.281), rgba(255, 0, 0, 0.233)); /* Terceira imagem */
+    background-repeat: no-repeat;
+    background-position: left 130px, left top, left 550px top 220px;
+    background-size: 100% 550px, 240px 300px, 300px 380px; /* Tamanhos individuais para cada imagem */
+    width: 100%;
+    height: 800px;
+}
+
+.serviços-info{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.cabeçalho-serviços {
+    align-items: center;
+    text-align: start;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.cabeçalho-serviços p {
+    text-align: left;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    word-wrap: break-word; /* Quebra palavras longas se necessário */
+    overflow-wrap: break-word; /* Garante que o texto não ultrapasse o container */
+    white-space: normal; /* Permite que o texto quebre naturalmente */
+    line-height: 1.5; /* Aumenta o espaçamento entre as linhas para melhor legibilidade */
+}
+
+.titulo-serviços {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.conteudo-serviços {
+    align-items: center;
+    margin-left: 150px;
+}
+
+.nome-serviços h3,
+li {
+    color: #FFFFFF;
+}
+
+.nome-serviços1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.nome-serviços1 img {
+    height: 30px;
+}
+
+.nome-serviços1 h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    font-size: 20px;
+}
+
+.nome-serviços{
+    margin-left: 20px;
+}
+
+.nome-serviços ul{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.serviços .buton-card{
+    width: 250px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 15px
+}
+
+.serviços .buton-card a{
+    font-size: 15px;
+}
+
+.buton{
+    align-items: center;
+    margin-top: 40px;
+}
+    
+ /* estilização do footer*/
+
+footer{
+    height: 180px;
+    width: 100%;
+    background-color: #FF0000;
+    margin-top: 70px;
+}
+
+.footer-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 25px;
+}
+.parte1{
+    display: flex;
+}
+.parte1 img{
+    height: 20px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.parte1 p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.parte2{
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+.parte2 img{
+    height: 30px;
+    cursor: pointer;
+}
+.nome-legacy{
+    text-align: center;
+    height: 40px;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.nome-legacy p{
+    color: #000000;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.nome-legacy p span{
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+ 
+}
+
+/* Responsividade para telas menores (a partir de 300px até 490px) */
+@media (min-width: 300px) and (max-width: 490px) {
+     .fundo{
+        background-size: 100% 400px;
+        background-position: right top;
+     }
+
+     .logo {
+        padding: 20px 50px;
+    }
+    
+    .logo img {
+        height: 25px;
+        width: 270px; 
+        margin-top: 10px;
+    }
+
+    .home {
+        background-position: right 210px;
+        background-repeat: no-repeat;
+        background-size: 50% 230px;
+    }
+
+    .conteudo-home {
+        display: grid;
+        max-width: 100%;
+        padding: 0px 50px;
+    }
+
+    .conteudo-home h1 {
+        margin-top: 5px;
+        font-size: 16px;
+    }
+
+    .conteudo-home p {
+        margin-top: 5px;
+        font-family: 'Inter', sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .conteudo-home h2 {
+        margin-top: 10px;
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        width: 65%;
+        border-bottom: 2px solid #900000;
+        font-weight: 700;
+    }
+    .buton-home {
+        background-color: #900000;
+        border: none;
+        height: 50px;
+        width: 200px;
+        border-radius: 9px;
+        margin-left: 10px;
+        margin-top: 80px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .buton-home a{
+        font-size: 16px;
+    }
+    
+   .fundamentos {
+        position: fixed; /* Fixa a seção na tela */
+        top: 510px; /* Coloca logo abaixo da home */
+        left: 0;
+        height: 100vh; /* Ocupa toda a altura da tela */
+        width: 100%;
+        z-index: 2; /* Fica acima de outras seções */
+        background-image: url(/assets/img/Vector.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .fundamentos h3{
+        margin-left: 20px;
+        font-weight: 800;
+        font-size: 15px;
+        width: 100%;
+    }
+    .card {
+        margin-bottom: 30px; /* Espaçamento entre os cards */
+        align-items: center;
+    }
+    
+   .card1 {
+       display: grid;
+       align-items: center;
+       justify-content: center;
+       margin-top: 40px;
+   }
+    .card-container{
+        display: grid;
+        width: 100%; /* Ajuste o tamanho da coluna conforme necessário */
+        align-items: center;
+        margin-top: 0px;
+        gap: 0px;
+    }
+
+    .titulo-fundamentos{
+        display: flex;
+        gap: 7px;
+        font-weight: 700;
+        font-size: 15px;
+        align-items: center;
+    }
+   .conteudo-card{
+        margin-top: 5px;
+        font-size: 10px;
+        align-items: center;
+        font-weight: 500;
+    }
+    .num-card{
+        border: solid 4px #FF0000;
+        padding: 1px;
+        height: 30px;
+        width: 30px;
+        align-items: center;
+        text-align: center;
+        border-radius: 7px;
+    }
+    .buton-card{
+        height: 50px;
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    .clientes {
+        padding: 20px;
+        margin-top: 300px;
+    }
+
+    .titulo-cliente{
+        font-size: 22px;
+    }
+    
+    .subtitulo-cliente{
+        font-size: 13px;
+    }
+
+    .info-cliente{
+        font-size: 9px;
+    }
+
+    .logos-clientes {
+        width: 100%; /* Ajusta a largura para que as imagens caibam */
+    }
+    
+    .logos-clientes img {
+        width: 73%; /* Ajusta o tamanho das imagens */
+        height: 200px;
+        margin-right: 0px; /* Espaçamento entre as imagens */
+        margin-top: 70px;
+    }
+
+    
+.motivos {
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-motivo {
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.motivos1 {
+    margin-top: 20px;
+    display: grid;
+}
+
+.item {
+    display: flex;
+    text-align: justify;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.motivos1 img {
+    height: 15px; /* Ajuste o tamanho da imagem conforme necessário */
+    display: flex;
+    
+}
+
+.texto {
+    font-size: 12px;
+    margin-top: 5px; /* Ajuste o espaçamento entre a imagem e o texto */
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.serviços {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-right: 20px;
+    background-image:
+        url(/assets/img/envato_uy4422k\ 1.png),/* Primeira imagem */
+        url(/assets/img/109191182\ 1.png), /* Segunda imagem */
+        url(/assets/img/1091911823\ 1.png),linear-gradient(to right, rgba(255, 0, 0, 0.281), rgba(255, 0, 0, 0.233)); /* Terceira imagem */
+    background-repeat: no-repeat;
+    background-position: left 130px, left top, left 200px top 220px;
+    background-size: 100% 550px, 200px 250px, 300px 380px; /* Tamanhos individuais para cada imagem */
+    width: 100%;
+    height: 780px;
+}
+
+.serviços-info{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.cabeçalho-serviços {
+    align-items: center;
+    text-align: start;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.cabeçalho-serviços p {
+    text-align: left;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    word-wrap: break-word; /* Quebra palavras longas se necessário */
+    overflow-wrap: break-word; /* Garante que o texto não ultrapasse o container */
+    white-space: normal; /* Permite que o texto quebre naturalmente */
+    line-height: 1.5; /* Aumenta o espaçamento entre as linhas para melhor legibilidade */
+}
+
+.titulo-serviços {
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.conteudo-serviços {
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.nome-serviços h3,
+li {
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.nome-serviços1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.nome-serviços1 img {
+    height: 25px;
+}
+
+.nome-serviços1 h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.nome-serviços{
+    margin-left: 20px;
+}
+
+.nome-serviços ul{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.serviços .buton-card{
+    width: 250px;
+    height: 40px;
+    margin-top: 70px;
+    border-radius: 15px
+}
+
+.serviços .buton-card a{
+    font-size: 15px;
+}
+
+.buton{
+    align-items: center;
+    margin-top: 40px;
+}
+    
+ /* estilização do footer*/
+
+footer{
+    height: 180px;
+    width: 100%;
+    background-color: #FF0000;
+    margin-top: 70px;
+}
+
+.footer-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 25px;
+}
+.parte1{
+    display: flex;
+}
+.parte1 img{
+    height: 18px;
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.parte1 p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.parte2{
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+.parte2 img{
+    height: 30px;
+    cursor: pointer;
+}
+.nome-legacy{
+    text-align: center;
+    height: 40px;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.nome-legacy p{
+    color: #000000;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.nome-legacy p span{
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+}
+
+/* Responsividade para telas menores (a partir de 491px até 583px) */
+@media (min-width: 491px) and (max-width: 583px) {
+    .fundo{
+       background-size: 100% 500px;
+       background-position: right top;
+    }
+
+    .logo {
+       margin-left: 20px;
+   }
+   
+   .logo img {
+       height: 30px;
+       width: 350px; 
+       margin-top: 25px;
+   }
+
+   .home {
+       background-position: right 250px;
+       background-repeat: no-repeat;
+       background-size: 50% 300px;
+   }
+
+   .conteudo-home {
+       display: grid;
+       max-width: 100%;
+       padding: 0px 50px;
+   }
+
+   .conteudo-home h1 {
+       margin-top: 5px;
+       font-size: 23px;
+   }
+
+   .conteudo-home p {
+       margin-top: 5px;
+       font-family: 'Inter', sans-serif;
+       font-size: 12px;
+       font-weight: 400;
+   }
+   .conteudo-home h2 {
+       margin-top: 10px;
+       font-family: 'Inter', sans-serif;
+       font-size: 18px;
+       width: 65%;
+       border-bottom: 2px solid #900000;
+       font-weight: 700;
+   }
+   .buton-home {
+       background-color: #900000;
+       border: none;
+       height: 50px;
+       width: 300px;
+       border-radius: 9px;
+       margin-left: 10px;
+       margin-top: 130px;
+       cursor: pointer;
+       transition: 0.3s;
+   }
+   
+  .fundamentos {
+       position: fixed; /* Fixa a seção na tela */
+       top: 650px; /* Coloca logo abaixo da home */
+       left: 0;
+       height: 100vh; /* Ocupa toda a altura da tela */
+       width: 100%;
+       z-index: 2; /* Fica acima de outras seções */
+       background-image: url(/assets/img/Vector.png);
+       background-position: top;
+       background-repeat: no-repeat;
+       background-size: 100%;
+   }
+   .fundamentos h3{
+       margin-left: 20px;
+       font-weight: 800;
+       font-size: 20px;
+       width: 100%;
+   }
+   .card {
+       margin-bottom: 30px; /* Espaçamento entre os cards */
+       align-items: center;
+   }
+   
+  .card1 {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+  }
+   .card-container{
+       display: grid;
+       width: 100%; /* Ajuste o tamanho da coluna conforme necessário */
+       align-items: center;
+       margin-top: 0px;
+       gap: 0px;
+   }
+
+   .titulo-fundamentos{
+       display: flex;
+       gap: 7px;
+       font-weight: 700;
+       font-size: 20px;
+       align-items: center;
+   }
+  .conteudo-card{
+       margin-top: 10px;
+       font-size: 14px;
+       align-items: center;
+       font-weight: 500;
+   }
+   .num-card{
+       border: solid 4px #FF0000;
+       padding: 1px;
+       height: 35px;
+       width: 35px;
+       align-items: center;
+       text-align: center;
+       border-radius: 7px;
+   }
+   .buton-card{
+       height: 50px;
+       width: 300px;
+       margin-left: 130px;
+   }
+
+   .clientes {
+       padding: 20px;
+       margin-top: 500px;
+   }
+
+   .titulo-cliente{
+       font-size: 30px;
+   }
+   
+   .subtitulo-cliente{
+       font-size: 18px;
+   }
+
+   .info-cliente{
+       font-size: 12px;
+   }
+
+   .logos-clientes {
+       width: 90%; /* Ajusta a largura para que as imagens caibam */
+   }
+   
+   .logos-clientes img {
+       width: 100%; /* Ajusta o tamanho das imagens */
+       height: 200px;
+       margin-right: 10px; /* Espaçamento entre as imagens */
+       margin-top: 70px;
+   }
+
+   
+.motivos {
+   align-items: center;
+   text-align: center;
+}
+
+.titulo-motivo {
+   margin-top: 60px;
+   font-size: 25px;
+}
+
+.motivos1 {
+   margin-top: 20px;
+   display: grid;
+}
+
+.item {
+   display: flex;
+   text-align: justify;
+   gap: 10px;
+   margin-top: 20px;
+   align-items: center;
+}
+
+.motivos1 img {
+   height: 15px; /* Ajuste o tamanho da imagem conforme necessário */
+   display: flex;
+   
+}
+
+.texto {
+   font-size: 13px;
+   margin-top: 5px; /* Ajuste o espaçamento entre a imagem e o texto */
+   font-family: 'Inter', sans-serif;
+   font-weight: 500;
+}
+.serviços {
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   padding-right: 20px;
+   background-image:
+       url(/assets/img/envato_uy4422k\ 1.png),/* Primeira imagem */
+       url(/assets/img/109191182\ 1.png), /* Segunda imagem */
+       url(/assets/img/1091911823\ 1.png),linear-gradient(to right, rgba(255, 0, 0, 0.281), rgba(255, 0, 0, 0.233)); /* Terceira imagem */
+   background-repeat: no-repeat;
+   background-position: left 130px, left top, left 348px top 220px;
+   background-size: 100% 550px, 240px 300px, 300px 380px; /* Tamanhos individuais para cada imagem */
+   width: 100%;
+   height: 800px;
+}
+
+.serviços-info{
+   margin-top: 20px;
+   text-align: center;
+   font-size: 15px;
+   font-family: 'Inter', sans-serif;
+   font-weight: 700;
+}
+
+.cabeçalho-serviços {
+   align-items: center;
+   text-align: start;
+   margin-left: 200px;
+   margin-top: 70px;
+}
+
+.cabeçalho-serviços p {
+   text-align: left;
+   font-size: 12px;
+   text-align: left;
+   margin-left: 70px;
+   margin-top: 30px;
+   word-wrap: break-word; /* Quebra palavras longas se necessário */
+   overflow-wrap: break-word; /* Garante que o texto não ultrapasse o container */
+   white-space: normal; /* Permite que o texto quebre naturalmente */
+   line-height: 1.5; /* Aumenta o espaçamento entre as linhas para melhor legibilidade */
+}
+
+.titulo-serviços {
+   font-size: 30px;
+   margin-top: 10px;
+   text-align: center;
+}
+
+.conteudo-serviços {
+   align-items: center;
+   margin-left: 30px;
+   margin-top: 40px;
+}
+
+.nome-serviços h3,
+li {
+   color: #FFFFFF;
+}
+
+.nome-serviços1 {
+   display: flex;
+   text-align: center;
+   align-items: center;
+   margin-top: 30px;
+   gap: 20px;
+}
+
+.nome-serviços1 img {
+   height: 30px;
+}
+
+.nome-serviços1 h3 {
+   font-family: 'Inter', sans-serif;
+   font-weight: 800;
+   font-size: 20px;
+   font-size: 20px;
+}
+
+.nome-serviços{
+   margin-left: 20px;
+}
+
+.nome-serviços ul{
+   margin-left: 120px;
+   margin-top: 10px;
+}
+
+.serviços .buton-card{
+   width: 250px;
+   height: 40px;
+   margin-top: 40px;
+   border-radius: 15px
+}
+
+.serviços .buton-card a{
+   font-size: 15px;
+}
+
+.buton{
+   align-items: center;
+   margin-top: 40px;
+}
+   
+/* estilização do footer*/
+
+footer{
+   height: 180px;
+   width: 100%;
+   background-color: #FF0000;
+   margin-top: 70px;
+}
+
+.footer-div{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 40px 25px;
+}
+.parte1{
+   display: flex;
+}
+.parte1 img{
+   height: 20px;
+   width: 250px;
+   margin-bottom: 20px;
+}
+
+.parte1 p{
+   font-family: 'Inter', sans-serif;
+   font-weight: 700;
+   font-size: 15px;
+   margin-left: 40px;
+}
+
+.parte2{
+   display: flex;
+   gap: 100px;
+   text-align: center;
+   margin-top: 20px;
+}
+.parte2 img{
+   height: 30px;
+   cursor: pointer;
+}
+.nome-legacy{
+   text-align: center;
+   height: 40px;
+   background-color: #FFFFFF;
+   align-items: center;
+}
+
+.nome-legacy p{
+   color: #000000;
+   align-items: center;
+   padding: 10px;
+   font-family: 'Inter', sans-serif;
+   font-weight: 500;
+}
+
+.nome-legacy p span{
+   color: #FF0000;
+   font-family: 'Inter', sans-serif;
+   font-weight: 700;
+}
+
+}
+
+/* Responsividade para telas menores (a partir de 584px até 599px) */
+@media (min-width: 584px) and (max-width: 599px) {
+    .fundo{
+       background-size: 100% 500px;
+       background-position: right top;
+    }
+
+    .logo {
+       margin-left: 20px;
+   }
+   
+   .logo img {
+       height: 30px;
+       width: 350px; 
+       margin-top: 25px;
+   }
+
+   .home {
+       background-position: right 250px;
+       background-repeat: no-repeat;
+       background-size: 50% 300px;
+   }
+
+   .conteudo-home {
+       display: grid;
+       max-width: 100%;
+       padding: 0px 50px;
+   }
+
+   .conteudo-home h1 {
+       margin-top: 5px;
+       font-size: 23px;
+   }
+
+   .conteudo-home p {
+       margin-top: 5px;
+       font-family: 'Inter', sans-serif;
+       font-size: 12px;
+       font-weight: 400;
+   }
+   .conteudo-home h2 {
+       margin-top: 10px;
+       font-family: 'Inter', sans-serif;
+       font-size: 18px;
+       width: 65%;
+       border-bottom: 2px solid #900000;
+       font-weight: 700;
+   }
+   .buton-home {
+       background-color: #900000;
+       border: none;
+       height: 50px;
+       width: 300px;
+       border-radius: 9px;
+       margin-left: 10px;
+       margin-top: 130px;
+       cursor: pointer;
+       transition: 0.3s;
+   }
+   
+  .fundamentos {
+       position: fixed; /* Fixa a seção na tela */
+       top: 650px; /* Coloca logo abaixo da home */
+       left: 0;
+       height: 100vh; /* Ocupa toda a altura da tela */
+       width: 100%;
+       z-index: 2; /* Fica acima de outras seções */
+       background-image: url(/assets/img/Vector.png);
+       background-position: top;
+       background-repeat: no-repeat;
+       background-size: 100%;
+   }
+   .fundamentos h3{
+       margin-left: 20px;
+       font-weight: 800;
+       font-size: 20px;
+       width: 100%;
+   }
+   .card {
+       margin-bottom: 30px; /* Espaçamento entre os cards */
+       align-items: center;
+   }
+   
+  .card1 {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+  }
+   .card-container{
+       display: grid;
+       width: 100%; /* Ajuste o tamanho da coluna conforme necessário */
+       align-items: center;
+       margin-top: 0px;
+       gap: 0px;
+   }
+
+   .titulo-fundamentos{
+       display: flex;
+       gap: 7px;
+       font-weight: 700;
+       font-size: 20px;
+       align-items: center;
+   }
+  .conteudo-card{
+       margin-top: 10px;
+       font-size: 14px;
+       align-items: center;
+       font-weight: 500;
+   }
+   .num-card{
+       border: solid 4px #FF0000;
+       padding: 1px;
+       height: 35px;
+       width: 35px;
+       align-items: center;
+       text-align: center;
+       border-radius: 7px;
+   }
+   .buton-card{
+       height: 50px;
+       width: 300px;
+       margin-left: 130px;
+   }
+
+   .clientes {
+       padding: 20px;
+       margin-top: 0px;
+   }
+
+   .titulo-cliente{
+       font-size: 30px;
+   }
+   
+   .subtitulo-cliente{
+       font-size: 18px;
+   }
+
+   .info-cliente{
+       font-size: 12px;
+   }
+
+   .logos-clientes {
+       width: 90%; /* Ajusta a largura para que as imagens caibam */
+   }
+   
+   .logos-clientes img {
+       width: 100%; /* Ajusta o tamanho das imagens */
+       height: 200px;
+       margin-right: 10px; /* Espaçamento entre as imagens */
+       margin-top: 70px;
+   }
+
+   
+.motivos {
+   align-items: center;
+   text-align: center;
+}
+
+.titulo-motivo {
+   margin-top: 60px;
+   font-size: 25px;
+}
+
+.motivos1 {
+   margin-top: 20px;
+   display: grid;
+}
+
+.item {
+   display: flex;
+   text-align: justify;
+   gap: 10px;
+   margin-top: 20px;
+   align-items: center;
+}
+
+.motivos1 img {
+   height: 15px; /* Ajuste o tamanho da imagem conforme necessário */
+   display: flex;
+   
+}
+
+.texto {
+   font-size: 13px;
+   margin-top: 5px; /* Ajuste o espaçamento entre a imagem e o texto */
+   font-family: 'Inter', sans-serif;
+   font-weight: 500;
+}
+.serviços {
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   padding-right: 20px;
+   background-image:
+       url(/assets/img/envato_uy4422k\ 1.png),/* Primeira imagem */
+       url(/assets/img/109191182\ 1.png), /* Segunda imagem */
+       url(/assets/img/1091911823\ 1.png),linear-gradient(to right, rgba(255, 0, 0, 0.281), rgba(255, 0, 0, 0.233)); /* Terceira imagem */
+   background-repeat: no-repeat;
+   background-position: left 130px, left top, left 348px top 220px;
+   background-size: 100% 550px, 240px 300px, 300px 380px; /* Tamanhos individuais para cada imagem */
+   width: 100%;
+   height: 800px;
+}
+
+.serviços-info{
+   margin-top: 20px;
+   text-align: center;
+   font-size: 15px;
+   font-family: 'Inter', sans-serif;
+   font-weight: 700;
+}
+
+.cabeçalho-serviços {
+   align-items: center;
+   text-align: start;
+   margin-left: 200px;
+   margin-top: 70px;
+}
+
+.cabeçalho-serviços p {
+   text-align: left;
+   font-size: 12px;
+   text-align: left;
+   margin-left: 70px;
+   margin-top: 30px;
+   word-wrap: break-word; /* Quebra palavras longas se necessário */
+   overflow-wrap: break-word; /* Garante que o texto não ultrapasse o container */
+   white-space: normal; /* Permite que o texto quebre naturalmente */
+   line-height: 1.5; /* Aumenta o espaçamento entre as linhas para melhor legibilidade */
+}
+
+.titulo-serviços {
+   font-size: 30px;
+   margin-top: 10px;
+   text-align: center;
+}
+
+.conteudo-serviços {
+   align-items: center;
+   margin-left: 30px;
+   margin-top: 40px;
+}
+
+.nome-serviços h3,
+li {
+   color: #FFFFFF;
+}
+
+.nome-serviços1 {
+   display: flex;
+   text-align: center;
+   align-items: center;
+   margin-top: 30px;
+   gap: 20px;
+}
+
+.nome-serviços1 img {
+   height: 30px;
+}
+
+.nome-serviços1 h3 {
+   font-family: 'Inter', sans-serif;
+   font-weight: 800;
+   font-size: 20px;
+   font-size: 20px;
+}
+
+.nome-serviços{
+   margin-left: 20px;
+}
+
+.nome-serviços ul{
+   margin-left: 120px;
+   margin-top: 10px;
+}
+
+.serviços .buton-card{
+   width: 250px;
+   height: 40px;
+   margin-top: 40px;
+   border-radius: 15px
+}
+
+.serviços .buton-card a{
+   font-size: 15px;
+}
+
+.buton{
+   align-items: center;
+   margin-top: 40px;
+}
+   
+/* estilização do footer*/
+
+footer{
+   height: 180px;
+   width: 100%;
+   background-color: #FF0000;
+   margin-top: 70px;
+}
+
+.footer-div{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 40px 25px;
+}
+.parte1{
+   display: flex;
+}
+.parte1 img{
+   height: 20px;
+   width: 250px;
+   margin-bottom: 20px;
+}
+
+.parte1 p{
+   font-family: 'Inter', sans-serif;
+   font-weight: 700;
+   font-size: 15px;
+   margin-left: 40px;
+}
+
+.parte2{
+   display: flex;
+   gap: 100px;
+   text-align: center;
+   margin-top: 20px;
+}
+.parte2 img{
+   height: 30px;
+   cursor: pointer;
+}
+.nome-legacy{
+   text-align: center;
+   height: 40px;
+   background-color: #FFFFFF;
+   align-items: center;
+}
+
+.nome-legacy p{
+   color: #000000;
+   align-items: center;
+   padding: 10px;
+   font-family: 'Inter', sans-serif;
+   font-weight: 500;
+}
+
+.nome-legacy p span{
+   color: #FF0000;
+   font-family: 'Inter', sans-serif;
+   font-weight: 700;
+}
+
+}
