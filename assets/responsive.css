@@ -65,7 +65,7 @@
         height: 100vh; /* Ocupa toda a altura da tela */
         width: 100%;
         z-index: 2; /* Fica acima de outras seções */
-        background-image: url(/assets/img/Vector.png);
+        background-image: url('../assets/img/fundo.png');
         background-position: top;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -194,9 +194,9 @@
     align-items: stretch;
     padding-right: 20px;
     background-image:
-        url(/assets/img/envato_uy4422k\ 1.png),/* Primeira imagem */
-        url(/assets/img/109191182\ 1.png), /* Segunda imagem */
-        url(/assets/img/1091911823\ 1.png),linear-gradient(to right, rgba(255, 0, 0, 0.281), rgba(255, 0, 0, 0.233)); /* Terceira imagem */
+    url('../assets/img/fundo2.png'),/* Primeira imagem */
+    url('../assets/img/cara2.png'), /* Segunda imagem */
+    url('../assets/img/dinheiro.png'),linear-gradient(to right, rgba(255, 0, 0, 0.301), rgba(255, 0, 0, 0.233)); /* Terceira imagem */
     background-repeat: no-repeat;
     background-position: left 130px, left top, left 550px top 220px;
     background-size: 100% 550px, 240px 300px, 300px 380px; /* Tamanhos individuais para cada imagem */
@@ -428,7 +428,7 @@ footer{
         height: 100vh; /* Ocupa toda a altura da tela */
         width: 100%;
         z-index: 2; /* Fica acima de outras seções */
-        background-image: url(/assets/img/Vector.png);
+        background-image: url('../assets/img/fundo.png');
         background-position: top;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -556,9 +556,9 @@ footer{
     align-items: stretch;
     padding-right: 20px;
     background-image:
-        url(/assets/img/envato_uy4422k\ 1.png),/* Primeira imagem */
-        url(/assets/img/109191182\ 1.png), /* Segunda imagem */
-        url(/assets/img/1091911823\ 1.png),linear-gradient(to right, rgba(255, 0, 0, 0.281), rgba(255, 0, 0, 0.233)); /* Terceira imagem */
+    url('../assets/img/fundo2.png'),/* Primeira imagem */
+    url('../assets/img/cara2.png'), /* Segunda imagem */
+    url('../assets/img/dinheiro.png'),linear-gradient(to right, rgba(255, 0, 0, 0.301), rgba(255, 0, 0, 0.233)); /* Terceira imagem */
     background-repeat: no-repeat;
     background-position: left 130px, left top, left 200px top 220px;
     background-size: 100% 550px, 200px 250px, 300px 380px; /* Tamanhos individuais para cada imagem */
@@ -787,7 +787,7 @@ footer{
        height: 100vh; /* Ocupa toda a altura da tela */
        width: 100%;
        z-index: 2; /* Fica acima de outras seções */
-       background-image: url(/assets/img/Vector.png);
+       background-image: url('../assets/img/fundo.png');
        background-position: top;
        background-repeat: no-repeat;
        background-size: 100%;
@@ -915,9 +915,9 @@ footer{
    align-items: stretch;
    padding-right: 20px;
    background-image:
-       url(/assets/img/envato_uy4422k\ 1.png),/* Primeira imagem */
-       url(/assets/img/109191182\ 1.png), /* Segunda imagem */
-       url(/assets/img/1091911823\ 1.png),linear-gradient(to right, rgba(255, 0, 0, 0.281), rgba(255, 0, 0, 0.233)); /* Terceira imagem */
+   url('../assets/img/fundo2.png'),/* Primeira imagem */
+   url('../assets/img/cara2.png'), /* Segunda imagem */
+   url('../assets/img/dinheiro.png'),linear-gradient(to right, rgba(255, 0, 0, 0.301), rgba(255, 0, 0, 0.233)); /* Terceira imagem */
    background-repeat: no-repeat;
    background-position: left 130px, left top, left 348px top 220px;
    background-size: 100% 550px, 240px 300px, 300px 380px; /* Tamanhos individuais para cada imagem */
